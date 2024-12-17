@@ -1,6 +1,6 @@
 ```mermaid
 flowchart TD
-    A[Start: Secure Medical Records System] --> B[1. Encrypt Medical Records]
+    A[Start: Secure Medical Records System] --> B[Encrypt Medical Records]
     B --> C[Store Encrypted Records in IPFS]
     C --> D[Link IPFS CID to TRC-721 Token]
     D --> E[Role-Based Access via Badges]
