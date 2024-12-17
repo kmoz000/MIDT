@@ -2,7 +2,7 @@
 flowchart TD
     A[Start: Secure Medical Records System] --> B[Encrypt Medical Records]
     B --> C[Store Encrypted Records in IPFS]
-    C --> D[Link IPFS CID to TRC-721 Token]
+    C --> D[Link IPFS CID to Solana's NFT Standard]
     D --> E[Role-Based Access via Badges]
     
     %% Badge System Subflow
@@ -40,6 +40,11 @@ flowchart TD
     X --> X3[Challenge 3: Scalability of Logs]
     X3 --> Y3[Solution: Off-Chain Logs with On-Chain Hash Commitments]
 
+    %% New Requirements
+    D --> Z[Deploy Contract to Solana]
+    E --> AA[Determine Wallet Roles Based on Access Interactions]
+    B --> BB[Use Quantum-Resistant Encryption]
+
     %% End
-    U --> Z[End: Secure, Accountable, and Flexible Medical Records System]
+    U --> ZZ[End: Secure, Accountable, and Flexible Medical Records System]
 ```
