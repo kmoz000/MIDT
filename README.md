@@ -7,8 +7,8 @@ flowchart TD
     
     %% Badge System Subflow
     E --> F[Assign Badge to Wallet via Smart Contract]
-    F --> G[Role: Verified Medical Institute (0x01)]
-    F --> H[Role: Patient (0x02)]
+    F --> G[Role: Verified Medical Institute `0x01`]
+    F --> H[Role: Patient `0x02`]
     E --> I[Verify Role Before Access]
 
     %% One-Time Access Subflow
